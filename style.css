@@ -1,3 +1,43 @@
 h3 {
   color: darkblue;
 }
+
+/* Se 2 selettori hanno la stessa SPECIFICITA' vince quello che arriva dopo 
+strong {
+  color: green;
+}
+
+strong {
+  color: red;
+}
+
+*/
+
+footer strong {
+  /* Questo selettore ora ha SPECIFICITA' più alta rispetto a quello successivo, essendo più "forte" vincerà */
+  color: green;
+}
+
+strong {
+  /* Nonostante questo selettore arrivi dopo, verrà ignorato perché il selettore più in alto ha SPECIFICITA' maggiore */
+  color: red;
+}
+
+/* SELETTORI PER CLASSI */
+.paragrafo {
+  font-size: 1.5em;
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+/* SELETTORE PER ID */
+#par1 {
+  color: green;
+}
+
+#par3 span {
+  background-color: grey;
+}
