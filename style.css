@@ -25,7 +25,7 @@ strong {
 
 /* SELETTORI PER CLASSI */
 .paragrafo {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: blue;
 }
 
@@ -35,9 +35,33 @@ p {
 
 /* SELETTORE PER ID */
 #par1 {
-  color: green;
+  color: rgba(99, 236, 87, 0.322);
+  font-size: 1.2rem;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: Lato, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 117, 121, 0.43469887955182074) 39%, rgba(0, 212, 255, 1) 100%); */
+}
+
+h1 {
+  font-weight: 900;
+  text-shadow: 4px black;
 }
 
 #par3 span {
   background-color: grey;
+}
+
+#par3 > span {
+  background-color: grey;
+}
+
+#par1 > .testo-rosso {
+  background-color: coral;
 }
